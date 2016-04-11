@@ -1,38 +1,38 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+      <title>Leg Med Buller</title>
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+      <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="icon" href="img/AppIcon.jpg">
+      <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+      <link href="css/ionic.app.css" rel="stylesheet">
+      -->
 
-    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-    <link href="css/ionic.app.css" rel="stylesheet">
-    -->
+      <!-- ionic/angularjs js -->
+      <script src="lib/ionic/js/ionic.bundle.js"></script>
 
-    <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+      <!-- cordova script (this will be a 404 during development) -->
+      <script src="cordova.js"></script>
 
-    <!-- cordova script (this will be a 404 during development) -->
-    <script src="cordova.js"></script>
-
-    <!-- your app's js -->
-    <script src="js/app.js"></script>
-  </head>
-  <body ng-app="starter">
-
-    <ion-pane>
-
-      <ion-content class="mainwindow">
-        <div id="buttonWindow">
-        <img class="logo1" src="img/Motorik.png" alt="" ng-click="ask()">
-        <img class="logo2" src="img/MusikOgDans.png" alt="" ng-click="ask()">
-        <img class="logo3" src="img/Naturfænomen.png" alt="" ng-click="ask()">
-        <img class="logo4" src="img/Sproglig%20Kompetencer.png" alt="" ng-click="ask()">
-        </div>
-      </ion-content>
-    </ion-pane>
-  </body>
-</html>
+      <!-- your app's js -->
+      <script src="js/app.js"></script>
+    </head>
+    <body ng-app="starter">
+      <ion-pane>
+        <ion-content class="mainwindow">
+          <div id="buttonWindow">
+            <img class="headline" src="img/LegMedBuller.png" alt="" ng-click="ask()">
+            <img class="logoline" src="img/Easy Studio.png" alt="" ng-click="ask()">
+            <img class="logo1" src="img/Motorik.png" alt="" ng-click="ask()">
+            <img class="logo2" src="img/Musik.png" alt="" ng-click="ask()">
+            <img class="logo3" src="img/Naturfænomen.png" alt="" ng-click="ask()">
+            <img class="logo4" src="img/Sprog.png" alt="" ng-click="ask()">
+          </div>
+        </ion-content>
+      </ion-pane>
+    </body>
+  </html>

@@ -1,7 +1,7 @@
 /* Empty. Add your own CSS if you like */
 
 .scroll-content {
-  background: null;
+
 
 [add any more properties here]
 
@@ -13,13 +13,54 @@
 }
 
 .buttonWindow{
+  width:40%;
+}
+
+.headline{
   width:80%;
-  margin:0 auto;
+  height:auto;
+}
+
+.logoline{
+  width:30%;
+  height:auto;
 }
 
 .logo1, .logo2, .logo3, .logo4{
+  float:left;
   width:25%;
   height:auto;
+  margin-bottom: 2%;
+  box-shadow: 5px 5px 5px #888888;
+  border-radius: 12px;
+}
+
+.logo1:hover{
+  width:24.5%;
+  height:auto;
+  margin:0 0 2.4% 0;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.logo2:hover{
+  width:24.5%;
+  height:auto;
+  margin:0 0 2.4% 0;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.logo3:hover{
+  width:24.5%;
+  height:auto;
+  margin:0 0 2.4% 0;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.logo4:hover{
+  width:24.5%;
+  height:auto;
+  margin:0 0 2.4% 0;
+  box-shadow: 3px 3px 5px #888888;
 }
 
 #buttonWindow   {
