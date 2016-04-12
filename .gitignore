@@ -4,4 +4,8 @@
 node_modules/
 platforms/
 plugins/
-.idea/
+<<<<<<< HEAD
+=======
+.idea/workspace.xml
+.idea/deployment.xml
+>>>>>>> b27608f1e2cc133011ea2d141858b282bbf37532
