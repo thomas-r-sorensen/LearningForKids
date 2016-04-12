@@ -35,28 +35,28 @@
   border-radius: 12px;
 }
 
-.logo1:hover{
+.logo1:active{
   width:24.5%;
   height:auto;
   margin:0 0 2.4% 0;
   box-shadow: 3px 3px 5px #888888;
 }
 
-.logo2:hover{
+.logo2:active{
   width:24.5%;
   height:auto;
   margin:0 0 2.4% 0;
   box-shadow: 3px 3px 5px #888888;
 }
 
-.logo3:hover{
+.logo3:active{
   width:24.5%;
   height:auto;
   margin:0 0 2.4% 0;
   box-shadow: 3px 3px 5px #888888;
 }
 
-.logo4:hover{
+.logo4:active{
   width:24.5%;
   height:auto;
   margin:0 0 2.4% 0;
