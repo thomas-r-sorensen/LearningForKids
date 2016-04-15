@@ -11,20 +11,110 @@
   padding: 0 5% 0 5%;
 }
 
-body {
-  background: url("Baggrund.png");
+/*body {
+  padding:0;
+  margin:0;
+}*/
+
+.mainwindow{
+  background-image:url("../img/Background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-position: center;
+  margin:0;
+  padding:0;
+}
 
+.headerBox{
+  width:100%;
+  height:25%;
+}
+
+.header{
+  width:80%;
+  height:auto;
+  margin:0 auto;
+}
+
+.headline{
+  width:100%;
+}
+
+.logoBox{
+  width:100%;
+  margin: 0 auto;
+  padding-top:2%;
+}
+
+.logo{
+  width:25%;
+  margin:0 auto;
+}
+
+.logo p{
+  font-family: "Berlin Sans FB";
+  color:limegreen;
+  -webkit-text-stroke: 2px darkgreen;
+  text-shadow: 3px 3px 5px #000000;
+  font-size: 5em;
+}
+
+.buttonBox{
+  width:100%;
+}
+
+.buttons{
+  width:95%;
+  margin:0 auto;
+}
+
+.buttons img{
+  width:20.2%;
+  box-shadow: 2px 2px 4px #000000;
+  border-radius: 10px;
+}
+
+.btn1, .btn2, .btn3{
+  margin-right:6%;
 }
 
 .languageWindow p {
   font-family: "Berlin Sans FB";
-  font-weight: 500;
-  font-size: 1.5em;
+  color:limegreen;
+  -webkit-text-stroke: 2px darkgreen;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 5%;
   text-align: center;
-  padding:  3%;
+  margin:3% 0 3% 0;
+}
+
+.button{
+  font-family: "Berlin Sans FB";
+  color:orange;
+  -webkit-text-stroke: 2px darkorange;
+  text-shadow: 1px 1px 2px #000000;
+  font-size: 2.5em;
+  text-align: center;
+}
+/*
+.header{
+  width:100%;
+  height:50%;
+}
+
+.headerBox{
+  width:80%;
+  margin:0 auto;
+}
+
+.headline{
+  width:100%;
+  height:auto;
+}
+
+.logoline{
+  width:30%;
+  margin:0 auto;
 }
 
 .mainwindow {
@@ -32,23 +122,14 @@ body {
   height: 800px;
 }
 
-.buttonWindow{
-  width:40%;
-}
-
-.headline{
-  width:80%;
+#buttonWindow {
+  width:23%;
   height:auto;
-}
-
-.logoline{
-  width:30%;
-  height:auto;
+  float:left;
 }
 
 .logo1, .logo2, .logo3, .logo4{
-  float:left;
-  width:25%;
+  width:100%;
   height:auto;
   margin-bottom: 2%;
   box-shadow: 5px 5px 5px #888888;
@@ -81,7 +162,7 @@ body {
   height:auto;
   margin:0 0 2.4% 0;
   box-shadow: 3px 3px 5px #888888;
-}
+}*/
 
 #buttonWindow   {
   display: -webkit-flex;
