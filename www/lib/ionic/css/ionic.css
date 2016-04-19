@@ -8724,7 +8724,7 @@ progress {
       color: #fff;
       text-decoration: none; }
     .button.button-energized.active, .button.button-energized.activated {
-      background-color: #e6b500; }
+      background-color: #e6b500; border-radius: 30px; }
     .button.button-energized.button-clear {
       border-color: transparent;
       background: none;
