@@ -16,8 +16,12 @@
 
   // function to call when document is loaded
   var init = function() {
+    showTask();
     next(); // display first image and play first sound
-    setInterval(next, 3000); // change every 3000 milliseconds
+    setTimeout(next, 5000);
+    setTimeout(next, 5000);
+    setTimeout(next, 5000);
+    showTask();
   }
 
   // function to call when button is clicked
@@ -41,13 +45,24 @@
     new Audio(sets[setIndex].sound).play();
   };
 
+  // displays the task to complete at the end
+  var showTask = function()
+  {
+    document.getElementById('option1').src = sets[0].image;
+    document.getElementById('option2').src = sets[1].image;
+    document.getElementById('option3').src = sets[2].image;
+
+  }
+
 </script>
 
   <ion-pane>
-    <div id="container">
-      <img src="img/BlueTriangle.png" id="image">
+    <!--<div style="width: 100%;">-->
+    <div style="width: 100%;" id="container">
+      <img style="margin: 0 auto;" src="img/BlueTriangle.png" id="image">
+      <img id="option1" src="" alt=""><img id="option2" src="" alt=""><img id="option3" src="" alt="">
     </div>
-
+    <!--</div>-->
   </ion-pane>
 </body>
 </html>
