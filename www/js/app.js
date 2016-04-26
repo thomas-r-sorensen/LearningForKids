@@ -22,3 +22,38 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+
+app.controller('SprogPopulator', function($scope)
+{
+
+  var OnePlusTasks = [
+    "Her er der tasks"
+  ];
+
+  var ThreePlusTasks = [
+
+  ];
+
+  var FivePlusTasks = [
+
+  ];
+
+  $scope.testing = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+
+  $scope.populateOnePlus = function()
+  {
+
+  }
+
+  $scope.populateThreePlus = function()
+  {
+
+  }
+
+  $scope.populateFivePlus = function()
+  {
+
+  }
+
+
+})

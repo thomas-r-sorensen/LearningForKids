@@ -24,19 +24,28 @@
 </head>
 <body ng-app="starter">
 <ion-pane>
-  <ion-content class="languageWindow">
+  <ion-content class="languageWindow" ng-controller="SprogPopulator">
     <p>Vælg Aldersgruppe</p>
     <div id="AgeButtons">
-      <button class="button button-block button-energized">
+      <button class="button button-block button-energized" ng-click="populateOnePlus()">
         Alder 1+
       </button>
-      <button class="button button-block button-energized">
+      <button class="button button-block button-energized" ng-click="populateThreePlus()">
         Alder 3+
       </button>
-      <button class="button button-block button-energized">
+      <button class="button button-block button-energized" ng-click="populateFivePlus()">
         Alder 5+
       </button>
-    </div>-->
+
+        <a href="Sprog/OnePlus/OnePlusTask.html">Tryk her for test</a>
+
+    </div>
+    <div id="taskBox">
+      <div ng-class="tasks">
+        <!--<p>{{ testing }}</p>-->
+        <p class="testing" ng-class="{&apos;show&apos;:answered}">{{ testing }}</p>
+      </div>
+    </div>
   </ion-content>
 </ion-pane>
 </body>
