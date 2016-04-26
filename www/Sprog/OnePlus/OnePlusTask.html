@@ -5,57 +5,7 @@
     <title>Title</title>
 </head>
 <body onload="init()">
-<script type="text/javascript">
-  // current resource (image/sound) index
-  var setIndex = 0;
-
-  // image/sound pairs
-  var sets = [{image:'img/BlueTriangle.png', sound:'aud/gun.mp3'},
-    {image:'img/GreenSquare.png', sound:'aud/tea_pot.mp3'},
-    {image:'img/RedCircle.png', sound:'aud/trashbag.mp3'}];
-
-  // function to call when document is loaded
-  var init = function() {
-    showTask();
-    next(); // display first image and play first sound
-    setTimeout(next, 5000);
-    setTimeout(next, 5000);
-    setTimeout(next, 5000);
-    showTask();
-  }
-
-  // function to call when button is clicked
-  var next = function() {
-    if (setIndex >= sets.length || setIndex < 0) {
-      // index is out of bounds, reset
-      setIndex = 0;
-    }
-    showImg();
-    playAudio();
-    setIndex++;
-  };
-
-  // changing the image
-  var showImg = function() {
-    document.getElementById('image').src = sets[setIndex].image;
-  };
-
-  // playing the sound
-  var playAudio = function() {
-    new Audio(sets[setIndex].sound).play();
-  };
-
-  // displays the task to complete at the end
-  var showTask = function()
-  {
-    document.getElementById('option1').src = sets[0].image;
-    document.getElementById('option2').src = sets[1].image;
-    document.getElementById('option3').src = sets[2].image;
-
-  }
-
-</script>
-
+<script type="text/javascript" src="../../tasks/sprog/oneplus/OnePlusEngine.js"></script>
   <ion-pane>
     <!--<div style="width: 100%;">-->
     <div style="width: 100%;" id="container">
