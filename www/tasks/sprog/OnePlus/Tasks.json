@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id":"task1",
+      "image1": "../../img/BlueTriangle.png",
+      "aud1": "../../aud/Trekant.mp3",
+      "ms1":2000,
+      "image2": "../../img/RedCircle.png",
+      "aud2": "../../aud/Cirkel.mp3",
+      "ms2":2000,
+      "image3": "../../img/GreenSquare.png",
+      "aud3": "../../aud/Firkant.mp3",
+      "ms3":2000,
+      "task":"../../aud/Vælg_cirkel.mp3"
+    },
+    {
+      "id":"task2",
+      "image1": "/img/BlueTriangle.png",
+      "aud1": "/aud/Trekant.mp3",
+      "ms1":2000,
+      "image2": "../../img/RedCircle.png",
+      "aud2": "../../aud/Cirkel.mp3",
+      "ms2":2000,
+      "image3": "../../img/GreenSquare.png",
+      "aud3": "../../aud/Firkant.mp3",
+      "ms3":2000,
+      "task":"../../aud/Vælg_cirkel.mp3"
+    },
+    {
+      "id":"task3",
+      "image1": "/img/BlueTriangle.png",
+      "aud1": "/aud/Trekant.mp3",
+      "ms1":2000,
+      "image2": "../../img/RedCircle.png",
+      "aud2": "../../aud/Cirkel.mp3",
+      "ms2":2000,
+      "image3": "../../img/GreenSquare.png",
+      "aud3": "../../aud/Firkant.mp3",
+      "ms3":2000,
+      "task":"../../aud/Vælg_cirkel.mp3"
+    }
+  ]
+}
+
+
+
