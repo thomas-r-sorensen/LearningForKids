@@ -25,25 +25,28 @@
 <body ng-app="starter">
 <ion-pane>
   <ion-content class="languageWindow" ng-controller="SprogPopulator">
-    <p>Vælg Aldersgruppe</p>
-    <div id="AgeButtons">
-      <button class="button button-block button-energized" ng-click="populateOnePlus()">
-        Alder 1+
-      </button>
-      <button class="button button-block button-energized" ng-click="populateThreePlus()">
-        Alder 3+
-      </button>
-      <button class="button button-block button-energized" ng-click="populateFivePlus()">
-        Alder 5+
-      </button>
-
-        <a href="Sprog/OnePlus/OnePlusTask.html?id=1">Tryk her for test</a>
-
+    <div class="row-top">
+      <div class="col col-80 col-offset-10"><img class="easy" src="img/Aldersgruppe.png"></div>
     </div>
-    <div id="taskBox">
-      <div ng-class="tasks">
-        <!--<p>{{ testing }}</p>-->
-        <p class="testing" ng-class="{&apos;show&apos;:answered}">{{ testing }}</p>
+    <div class="row-mid-1">
+      <div class="col col-60 col-offset-20">
+        <button class="button button-block button-energized" ng-click="populateOnePlus()">
+          Alder 1+
+        </button>
+      </div>
+    </div>
+    <div class="row-mid-2">
+      <div class="col col-60 col-offset-20">
+        <button class="button button-block button-energized" ng-click="populateOnePlus()">
+          Alder 3+
+        </button>
+      </div>
+    </div>
+    <div class="row-mid-3">
+      <div class="col col-60 col-offset-20">
+        <button class="button button-block button-energized" ng-click="populateOnePlus()">
+          Alder 5+
+        </button>
       </div>
     </div>
   </ion-content>

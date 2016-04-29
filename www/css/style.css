@@ -6,21 +6,7 @@
 [add any more properties here]
 
 }
-
-#AgeButtons {
-  padding: 5% 15% 0 15%;
-  float:left;
-}
-
-.languageWindow p{
-  padding-top:5%;
-}
-
-/*body {
-  padding:0;
-  margin:0;
-}*/
-
+/*Index CSS*/
 .mainwindow, .languageWindow{
   background-image:url("../img/Background.png");
   background-size: cover;
@@ -33,17 +19,6 @@
   transition:all 0.3s ease;
 }
 
-.headerBox{
-  width:100%;
-  height:25%;
-}
-
-.header{
-  width:80%;
-  height:auto;
-  margin:0 auto;
-}
-
 .headline{
   width:100%;
 }
@@ -54,141 +29,47 @@
   padding-top:5%;
 }
 
-.logo{
-  width:25%;
-  margin:0 auto;
+.row-easy{
+  margin-top:10%;
 }
 
 .easy{
   width:100%;
 }
 
-.buttonBox{
-  margin-top:15%;
+.btn1, .btn2, .btn3, .btn4{
   width:100%;
 }
+/*Index CSS*/
 
-.buttons{
-  width:95%;
-  margin:0 auto;
+/*Sprog CSS*/
+.row-top{
+  margin-top:10%;
 }
 
-.buttons img{
-  width:20.2%;
-  box-shadow: 2px 2px 4px #000000;
-  border-radius: 10px;
+.row-mid-1{
+  margin-top:10%;
 }
 
-.btn1, .btn2, .btn3{
-  margin-right:6%;
-  border-radius: 0;
+.row-mid-1 button, .row-mid-2 button, .row-mid-3 button{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
+/*Sprog CSS*/
 
-.btn4:hover{
-  transform: scale(1.3);
-}
-
-.languageWindow p {
-  font-family: "Berlin Sans FB";
-  color:limegreen;
-  -webkit-text-stroke: 2px darkgreen;
-  text-shadow: 2px 2px 4px #000000;
-  font-size: 5em;
-  text-align: center;
-  margin:3% 0 3% 0;
-}
-
-.button{
-  font-family: "Berlin Sans FB";
-  color:darkorange;
-  text-shadow: 1px 1px 2px #000000;
-  font-size: 2.5em;
-  text-align: center;
-}
-/*
-.header{
+/*OnePlusTask CSS*/
+.shapewindow{
+  background-image:url("../img/Background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:0;
+  padding:0;
   width:100%;
-  height:50%;
+  height:100%;
+  transition:all 0.3s ease;
 }
 
-.headerBox{
-  width:80%;
-  margin:0 auto;
+.row-shape{
+  margin-top:10%;
 }
-
-.headline{
-  width:100%;
-  height:auto;
-}
-
-.logoline{
-  width:30%;
-  margin:0 auto;
-}
-
-.mainwindow {
-  width: 100%;
-  height: 800px;
-}
-
-#buttonWindow {
-  width:23%;
-  height:auto;
-  float:left;
-}
-
-.logo1, .logo2, .logo3, .logo4{
-  width:100%;
-  height:auto;
-  margin-bottom: 2%;
-  box-shadow: 5px 5px 5px #888888;
-  border-radius: 12px;
-}
-
-.logo1:active{
-  width:24.5%;
-  height:auto;
-  margin:0 0 2.4% 0;
-  box-shadow: 3px 3px 5px #888888;
-}
-
-.logo2:active{
-  width:24.5%;
-  height:auto;
-  margin:0 0 2.4% 0;
-  box-shadow: 3px 3px 5px #888888;
-}
-
-.logo3:active{
-  width:24.5%;
-  height:auto;
-  margin:0 0 2.4% 0;
-  box-shadow: 3px 3px 5px #888888;
-}
-
-.logo4:active{
-  width:24.5%;
-  height:auto;
-  margin:0 0 2.4% 0;
-  box-shadow: 3px 3px 5px #888888;
-}
-
-#buttonWindow   {
-  display: -webkit-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-}*/
+/*OnePlusTask CSS*/
